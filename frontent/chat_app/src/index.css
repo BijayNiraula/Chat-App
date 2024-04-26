@@ -1,0 +1,69 @@
+ *{
+    overflow: hidden;
+ }
+.chat-body{
+    height: 100%;
+
+
+
+}
+.chat-body .body{
+    background-image: url(../public/img.jpg);
+    /* height: 90%; */
+}
+.chat-body .body .message{
+    background-color: #D1D5D8;
+    /* background-color: #3D8EB9; */
+    border-radius: 10px;
+    margin-top: 20px;
+   word-wrap: break-word;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+    max-width: 50%;
+    font-size: 19px;
+    width: auto;
+
+}
+.chat-body .body .me{
+    background-color: #447ae6;
+    color: #ffff;    
+}
+
+.chat-area{
+    height:70vh;
+    overflow-y: scroll;
+}
+.input-area{
+    border-radius: 10px;
+}
+
+.loader{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1000;
+    background-color: rgba(45, 40, 40, 0.811);
+    opacity: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* join room */
+
+.join-room{
+    width:100vw;
+    height:100vh;
+    background-image: url(https://th.bing.com/th/id/OIP.5hW2xJFWPRImxmiX6ZRQmAHaEo?w=298&h=186&c=7&r=0&o=5&pid=1.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    
+  }
